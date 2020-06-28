@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Yogyakarta App</title>
+    <meta name="description" content="My first PWA" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="icon" href="icon.ico">
+    <link rel="apple-touch-icon" href="image/icon-192x192.png">
+
+    <meta name="theme-color" content="#6B00EB" />
+</head>
+
+<body>
+    <!-- tambahin div jumbotron -->
+    <div class="jumbotron">
+        <h1>Daerah Istimewa Yogyakarta</h1>
+        <p>Yogyakarta atau lebih sering disebut Jogja, mendapat berbagai macam julukan seperti Kota Pelajar, Kota
+            Gudeg, Kota Perjuangan, Kota Pariwisata, maupun Kota Budaya.</p>
+    </div>
+    <!-- Navigasi -->
+    <nav class="lighten-1" role="navigation">
+        <div class="nav-wrapper container">
+            <a href="#" class="brand-logo" id="logo-container">Yogyakarta App</a>
+            <a href="#" class="sidenav-trigger" data-target="nav-mobile">☰</a>
+
+            <ul class="topnav right hide-on-med-and-down"></ul>
+            <ul class="sidenav" id="nav-mobile"></ul>
+        </div>
+    </nav>
+    <!-- Akhir Navigasi -->
+    <main>
+        <div id="content"></div>
+        <side-bar></side-bar>
+    </main>
+    
+    
+    <footer>
+        <p>&copy; 2020. Arif Hidayat</p>
+
+    </footer>
+    <script src="js/materialize.min.js"></script>
+    <script src="js/nav.js"></script>
+    <script src="js/components/side-bar.js"></script>
+    <script src="js/register.js"></script>
+
+</body>
+
+</html>
